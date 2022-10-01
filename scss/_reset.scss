@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+    font-weight: 700;
+    color: #1f2428;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    background: transparent;
+}
+
+.container {
+    max-width: 1402px;
+    margin: 0 auto;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 66px;
+    background: linear-gradient(90deg, #00c97b 0%, #00d981 96.96%);
+    box-shadow: 0px 4px 4px rgba(1, 203, 124, 0.2);
+    border-radius: 36px;
+    font-size: 17px;
+    color: #fff;
+}
+
+.page-title {
+    font-weight: 800;
+    font-size: 44px;
+}
