@@ -44,6 +44,10 @@ button {
   font-size: 44px;
 }
 
+.lightblue {
+  color: #01cd7d;
+}
+
 @font-face {
   font-family: "Gilroy";
   src: url("../fonts/Gilroy-Light.eot");
@@ -168,15 +172,19 @@ button {
   padding-right: 60px;
 }
 
+.profit {
+  margin-bottom: 182px;
+}
 .profit .page-title {
   width: 420px;
   line-height: 50px;
   margin-bottom: 44px;
 }
-.profit__block {
+.profit__tab-block {
   background: #ffffff;
   box-shadow: 0px 0px 70px rgba(138, 138, 138, 0.1);
   border-radius: 16px;
+  margin-bottom: 54px;
 }
 .profit__tabs {
   width: 1243px;
@@ -217,4 +225,164 @@ button {
 .profit .tab span {
   font-size: 16px;
   margin-left: 17px;
+}
+.profit__products .item .block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 33px;
+}
+.profit__products .item .block .product-info {
+  width: 400px;
+  margin-top: -53px;
+}
+.profit__products .item .block .product-info .name {
+  font-size: 26px;
+  line-height: 36px;
+  margin-bottom: 44px;
+}
+.profit__products .item .block .product-info .price {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: #f2f6fc;
+  border-radius: 16px;
+  padding: 33px 34px;
+}
+.profit__products .item .block .product-info .price .flag {
+  width: 75px;
+  height: 54px;
+}
+.profit__products .item .block .product-info .price .flag img {
+  width: 100%;
+}
+.profit__products .item .block .product-info .price .info {
+  margin-left: 28px;
+}
+.profit__products .item .block .product-info .price .info span {
+  display: block;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+.profit__products .item .block .product-info .price .info b {
+  font-size: 26px;
+}
+.profit__products .item .block .product-img {
+  display: flex;
+  justify-content: center;
+  width: 446px;
+  height: 446px;
+  border-radius: 50%;
+  background: #f2f6fc;
+}
+.profit__products .item .block .product-img img {
+  width: inherit;
+}
+.profit__products .item .saving {
+  text-align: center;
+  margin-top: 65px;
+}
+.profit__products .item .saving span {
+  display: block;
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 9px;
+}
+.profit__products .item .saving b {
+  font-size: 26px;
+}
+.profit__products .owl-nav {
+  margin: 0;
+}
+.profit__products .owl-nav .owl-prev {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  bottom: -28px;
+  transition: all 0.3s;
+}
+.profit__products .owl-nav .owl-prev:hover {
+  background: transparent;
+}
+.profit__products .owl-nav .owl-prev:hover .product-prev {
+  width: 150px;
+  height: 150px;
+}
+.profit__products .owl-nav .owl-prev .product-prev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #f2f6fc;
+  transition: all 0.3s;
+  margin-right: 40px;
+}
+.profit__products .owl-nav .owl-prev .product-prev img {
+  width: 100%;
+}
+.profit__products .owl-nav .owl-next {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  bottom: -28px;
+}
+.profit__products .owl-nav .owl-next:hover {
+  background: transparent;
+}
+.profit__products .owl-nav .owl-next:hover .product-next {
+  width: 150px;
+  height: 150px;
+}
+.profit__products .owl-nav .owl-next .product-next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #f2f6fc;
+  transition: all 0.3s;
+  margin-left: 40px;
+}
+.profit__products .owl-nav .owl-next .product-next img {
+  width: 100%;
+}
+
+.benefits-block {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  box-shadow: 0px 0px 70px rgba(138, 138, 138, 0.1);
+  border-radius: 16px;
+  padding: 0 62px 0 51px;
+}
+.benefits .card {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 53px 0 67px;
+}
+.benefits .card::after {
+  content: "";
+  width: 1px;
+  height: 135px;
+  background: #c0c9d7;
+  position: absolute;
+  right: -71px;
+}
+.benefits .card:last-child::after {
+  display: none;
+}
+.benefits .card span {
+  width: 162px;
+  font-size: 18px;
+  line-height: 24px;
+  margin-left: 26px;
 }/*# sourceMappingURL=style.css.map */
